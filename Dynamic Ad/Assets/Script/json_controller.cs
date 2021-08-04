@@ -158,8 +158,8 @@ public class json_controller : MonoBehaviour
     bool placement_valitation(layer_placement placement)
     {
         bool valid = true;
-        if (placement.position.x < 0 || placement.position.y < 0)
-            valid = false;
+        //if (placement.position.x < 0 || placement.position.y < 0)
+            //valid = false;
         if (placement.position.width < 0 || placement.position.height < 0)
             valid = false;
         return valid;
