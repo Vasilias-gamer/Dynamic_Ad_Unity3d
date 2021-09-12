@@ -26,6 +26,8 @@ public class Ad_setup : MonoBehaviour
     {
         ad_panal.SetActive(false);
         error.gameObject.SetActive(false);
+	url.text="http://lab.greedygame.com/arpit-dev/unity-assignment/templates/frame_only.json";
+    	user_input.text="ORDER NOW!!!";
     }
 
     public void show_ad()
